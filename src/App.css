@@ -1,38 +1,119 @@
-.App {
-  text-align: center;
+body {
+  font-family: Arial, serif;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 1.7;
+  color: #4d4d4d;
+  background: #fff;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h1 {
+  margin: 0;
+  font-size: 48px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+h2 {
+  font-size: 32px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+h3 {
+  margin: 0;
+  font-size: 16px;
+}
+
+.main-cover {
+  background-color: transparent;
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+  height: 100vh;
+  width: 100%;
+}
+
+.main-cover .overlay {
+  position: absolute;
+  top: 80px;
+  bottom: 50px;
+  left: 80px;
+  right: 80px;
+  padding: 0 15px 5px;
+  background: rgb(240, 79, 4);
+  border-radius: 30px;
+}
+
+.main-travel {
+  background-size: cover !important;
+  position: relative;
+  top: 80px;
+  left: 80px;
+  height: 150px;
+  width: 450px;
+}
+
+.main-map {
+  background-size: cover !important;
+  position: relative;
+  left: 80px;
+  height: 700px;
+  width: 1000px;
+}
+
+.country-link-germany {
+  position: absolute;
+  top:300px;
+  left: 150px;
+}
+
+.country-link-america {
+  position: absolute;
+  top:340px;
+  left: 720px;
+}
+
+.country {
+  background-size: cover !important;
+  position: absolute;
+  top: 250px;
+  left: 350px;
+  height: 400px;
+  width: 600px;
+  margin-top: 0px;
+  margin-left: 800px;
+  border-radius: 30px;
+}
+
+.social-icons {
+  margin: 0;
+  padding: 0;
+}
+
+.social-icons li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: inline-block;
+}
+
+.social-icons li a {
+  display: inline-block;
+  color: #30BFBA;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.container {
+  width: 1170px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.title-text {
   color: white;
+  position: relative;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.icon-link {
+  position: relative;
 }
